@@ -11,5 +11,7 @@ namespace DataAccess.Model
         public string? Szin { get; set; }
 
         public Flotta? Flotta { get; set; }
+
+        public override string ToString() => Szin;
     }
 }

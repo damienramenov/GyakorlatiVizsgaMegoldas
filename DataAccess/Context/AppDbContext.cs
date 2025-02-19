@@ -15,7 +15,7 @@ namespace DataAccess.Context
         public AppDbContext()
         {
             var folder = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-            _dbPath = Path.Combine(folder, "autok.db");
+            _dbPath = Path.Combine(folder, "autokvizsga.db");
 
             Database.EnsureCreated();
         }

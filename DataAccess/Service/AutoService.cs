@@ -81,5 +81,8 @@ namespace DataAccess.Service
         }
 
         public List<AutoMarka> GetMarkas() => _context.AutoMarkas.ToList();
+        public List<AutoSzin> GetSzins() => _context.AutoSzins.ToList();
+        public List<AutoTipus> GetTipuses() => _context.AutoTipuses.ToList();
+        public List<Flotta> GetFlottas() => _context.Flottas.ToList();
     }
 }

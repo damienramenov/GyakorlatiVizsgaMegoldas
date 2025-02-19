@@ -12,5 +12,7 @@ namespace DataAccess.Model
         public string? Marka { get; set; }
 
         public Flotta? Flotta { get; set; }
+
+        public override string ToString() => Marka;
     }
 }
